@@ -5,7 +5,7 @@ export default function RouteApp() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={<Home />} />
+        <Route path="/" exact component={Home} />
       </Switch>
     </Router>
   );
