@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "prettier --write . && tsc --pretty --noEmit",
+    "lint": "prettier --write .",
+    "type-check": "tsc --pretty --noEmit",
     "prepare": "husky install"
   },
   "eslintConfig": {
