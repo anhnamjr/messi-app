@@ -27,7 +27,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "prettier --write ."
+    "lint": "prettier --write . && tsc --pretty --noEmit",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -48,10 +49,5 @@
     "@types/react-router-dom": "^5.3.1",
     "husky": "^7.0.2",
     "prettier": "^2.4.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint"
-    }
   }
 }
